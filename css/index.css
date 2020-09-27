@@ -622,6 +622,30 @@ input {
   }
 }
 
+@media (min-width: 360px) and (max-width: 767px) {
+  .one-strap::after {
+    width: 265px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 360px) {
+  .one-strap::after {
+    width: 215px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 375px) {
+  .one-strap::after {
+    width: 228px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 320px) {
+  .one-strap::after {
+    width: 175px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 769px) {
   .side .circle .img-side {
     right: 27%;
@@ -633,7 +657,7 @@ input {
     width: 200px !important;
   }
   .side .circle {
-    right: -160px;
+    right: -168px;
     top: -30px;
   }
   .head-nav .w-25 {
@@ -670,7 +694,7 @@ input {
     width: 280px !important;
   }
   .side .circle {
-    right: -180px;
+    right: -190px;
     top: -30px;
   }
   .head-list .px-4 {
@@ -695,4 +719,20 @@ input {
 .rounded-bottom {
   border-bottom-left-radius: 10px !important;
   border-bottom-right-radius: 10px !important;
+}
+
+.img-ticket {
+  position: relative;
+  left: -15px;
+}
+
+.img-ticket .ticket-text {
+  position: absolute;
+  top: -2px;
+  left: 10px;
+}
+
+.signutre {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 22px !important;
 }
